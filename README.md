@@ -14,3 +14,9 @@ A Plugin manager helps install important plugins for VIM. I use Vim-Plug. Here's
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
+
+## Installing Plugins using Vim Plug
+Create a `.vimrc` file in your `~/` directory using `vim .vimrc` & add the following code:
+
+```
+```
