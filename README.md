@@ -19,4 +19,9 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 Create a `.vimrc` file in your `~/` directory using `vim .vimrc` & add the following code:
 
 ```
+call plug#begin()
+Plug 'frazrepo/vim-rainbow'
+"Your plugin install scripts"
+"Can be found in official plugin documents"
+call plug#end()
 ```
