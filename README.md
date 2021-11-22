@@ -21,7 +21,10 @@ Create a `.vimrc` file in your `~/` directory using `vim .vimrc` & add the follo
 ```
 call plug#begin()
 Plug 'frazrepo/vim-rainbow'
-"Your plugin install scripts"
-"Can be found in official plugin documents"
 call plug#end()
 ```
+
+Now, run `:PlugInstall` inside VIM to install plugins specified inside `call plug#begin()` and `call plug#end()`. I've already added `vim-rainbow` it helps colorize all braces in good colors. I've a ready made `.vimrc` file in the repository that you can pull and put in your `~/` directory and run `PlugInstall`. It's a simple file with some necessary plugins. Take a look inside 👀!
+
+## Conclusion
+Vim is love and Plugins help you bond 💙.
